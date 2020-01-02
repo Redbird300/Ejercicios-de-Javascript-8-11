@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+
+div{
+  color: aliceblue;
+  margin-left: auto;
+  padding: 50px 50px 50px 50px;;
+}
+
+.coloreame{
+  border-radius: .10;
+}
+
+#eporc,#letras,#palindro,#edad,#nombre,#genero{
+  border-style: solid;
+  border-radius: 15px;
+  text-shadow: #34495e;
+  width: 7cm;
+  height: 30px;
+  font-style: italic ;
+  padding-top: 10 px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+#res,#exercise9,#pali{
+  margin: 10px 15px 0px 5px;
+  border: solid; 
+  padding: 10px 0px 10px 15px;
+  border-radius: 15px;
+  width: 8cm;
+  float: right;
+  height: .5cm;
+  font-size: .4cm;
+  font-family: sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#botton,#Dale,#Ingresar,#date{
+  border-radius: 10px;
+  border: solid ;
+  background-color: white;
+  padding: auto;
+  color: black;
+  margin: 10px;
+  font-size: .56cm;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 5px;
+    text-align: left;    
+  }

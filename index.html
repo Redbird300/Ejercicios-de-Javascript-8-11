@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>EJERCICIO DE JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+   <div>
+    18.8 EJERCICIO 8
+    Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es par o impar. Mostrar por pantalla el resultado devuelto por la función.
+    <p> Escribe un numero: </p>
+    <form id="soyUnFormulario"><input type="number" id="eporc" placeholder=" Escribe un numero" name="coloreame">
+      <button type="button" id="botton" onclick="presion()">Ok!</button></form>  <div id="res">Escribe algo antes...</div>
+    <br><hr>
+  </div>
+  <div>
+    18.9 EJERCICIO 9
+    Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
+   
+    <input type="text" id="letras" placeholder="Escribe algo de tu interes." onkeyup="laCadenaEs()"> <div id="exercise9"></div>
+    <br><hr></div>
+<div>
+    18.10 EJERCICIO 10
+    Definir una función que determine si la cadena de texto que se le pasa como parámetro es un palíndromo, es decir, si se lee de la misma forma desde la izquierda y desde la derecha. Ejemplo de palíndromo complejo: "La ruta nos aporto otro paso natural".
+    <form>
+      <input type="text" id="palindro" placeholder="Escribe una frase"><button type="button" onclick="palindromo()" id="Dale" >Dale!</button><div id="pali"></div>
+    </form>
+        <br><hr></div>
+<div>
+    18.11 EJERCICIO 11
+    Definir la siguiente jerarquía de objetos, haciendo uso de los prototipos de JavaScript:
+    
+    Objeto Persona con las propiedades nombre, edad y género, y el método obtDetalles(), que muestra por pantalla las propiedades de la persona.
+    Objeto Estudiante, que hereda de Persona, e incluye las propiedades curso y grupo y el método registrar().
+    Objeto Profesor, que hereda de Persona, e incluye las propiedades asignatura y nivel y el método asignar().
+    Crear los objetos y casos de prueba necesarios para comprobar el correcto funcionamiento de la jerarquía.
+    <form>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+      <input type="text" id="edad" placeholder="Ingresa tu edad"> 
+      <input type="text" id="genero" placeholder="Ingresa tu genero">
+      <button type="button" id="Ingresar" onclick="objetos()"> Registrar</button>
+      <div>
+      <table>
+        <tr>
+          <th>Nuevo Alumno</th>
+          <th>Registrado en</th>
+          <th>Asignado a</th>
+        </tr>
+        <tr>
+          <th id="nombreDelAlumno"></th>
+          <th id="registros1"></th>
+          <th id="asignado1"></th>
+        </tr>
+        <tr>
+          <th id="edadDelAlumno"></th>
+          <th id="registros2"></th>
+          <th id="asignado2"></th>
+        </tr>
+        <tr>
+          <th id="generoDelAlumno"></th>
+          <th ></th>
+          <th id="asignado3"></th>
+        </tr>
+      </table>
+      </div>
+    </form>
+    <br><hr></div>
+    <div>
+    18.12 EJERCICIO 12
+    Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados. Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, repitiendo 36.000 veces esta operación.
+    <div id="">
+      <button id="imd`button" onclick="dice()">Suerte!</button>
+      </div>
+      <div id="total"></div>
+    <br><hr></div>
+    <script src="worked.js"></script>
+  </body>
+</html>
